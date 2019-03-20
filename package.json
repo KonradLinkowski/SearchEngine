@@ -1,0 +1,21 @@
+{
+  "name": "SearchEngine",
+  "version": "1.0.0",
+  "main": "lib/server.js",
+  "repository": "https://github.com/KonradLinkowski/SearchEngine",
+  "author": "Konrad Linkowski <linkowski.konrad97@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node lib/server.js",
+    "dev": "nodemon lib/server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2"
+  }
+}

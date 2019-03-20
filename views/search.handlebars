@@ -1,0 +1,14 @@
+{{#each webPages}}
+  <article>
+    <h2>{{this.title}}</h2>
+    <p>{{this.url}}</p>
+    <p>{{this.description}}</p>
+  </article>
+{{/each}}
+
+{{#for 1 pageCount}}
+{{#test pageNumber '==' pageCount}}
+  <a>{{this}}</a>
+{{/test}}
+
+{{/for}}
