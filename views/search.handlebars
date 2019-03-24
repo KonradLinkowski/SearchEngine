@@ -1,7 +1,7 @@
 {{#each webPages}}
   <article>
-    <h2>{{this.title}}</h2>
-    <p>{{this.url}}</p>
+    <a href={{this.url}}></a><h2>{{this.title}}</h2></a>
+    <a href={{this.url}}>{{this.url}}</a>
     <p>{{this.description}}</p>
   </article>
 {{/each}}
